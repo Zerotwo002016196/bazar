@@ -1,6 +1,6 @@
 body {
 
-  background-color: black;
+  background-color:lightblue;
   }     }
   @media only screen and (max-width: 600px) 
   body background-color: ;
@@ -33,6 +33,7 @@ p {
 a{
   font-size: 40px;
   color:  red ;
+  padding: 40%;
 }
 label {
   font-size: 30px;
@@ -52,7 +53,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: black;
+  background-color: lightblue;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -70,7 +71,7 @@ nav {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background: black;
+  background: lightblue;
   padding: 20px;
 }
 
