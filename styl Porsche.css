@@ -8,7 +8,13 @@ h1 {
   font-family: verdana;
   font-size: 250%;
 }
-
+a {
+  color: orange;
+  text-align: center;
+  font-family: verdana;
+  font-size: 250%;
+  padding: 30%;
+}
 h2 {
   text-decoration-line: underline;
   color: white;
