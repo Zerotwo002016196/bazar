@@ -31,7 +31,7 @@ h3 {
 h4 {
   color: black;
   font-family: verdana;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 p {
@@ -43,9 +43,9 @@ p {
 }
 
 footer {
-  background-color:#777;
+  background-color:lightsteelblue;
   padding: 5px;
   text-align: center;
   color: white;
-  font-size: 15px;
+  font-size: 5px;
 }
