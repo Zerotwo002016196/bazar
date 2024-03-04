@@ -1,5 +1,5 @@
 body {
-  background-color:black;
+  background-color:lightblue;
 }
 
 h1 {
@@ -17,19 +17,19 @@ a {
 }
 h2 {
   text-decoration-line: underline;
-  color: white;
+  color: black;
   font-family: verdana;
   font-size: 25px;
 }
 
 h3 {
-  color: white;
+  color: black;
   font-family: verdana;
   font-size: 25px;
 }
 
 h4 {
-  color: white;
+  color: black;
   font-family: verdana;
   font-size: 10px;
 }
@@ -38,7 +38,8 @@ p {
   font-family: verdana;
   
   font-size: 25px;
-  color:white;
+  color:black;
+  background-color: steelblue;
 }
 
 footer {
