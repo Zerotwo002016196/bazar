@@ -6,40 +6,41 @@ h1 {
   color: orange;
   text-align: center;
   font-family: verdana;
-  font-size: 600%;
+  font-size: 300%;
 }
 a {
   color: orange;
   text-align: center;
   font-family: verdana;
-  font-size: 500%;
+  font-size: 200%;
   padding: 30%;
 }
 h2 {
   text-decoration-line: underline;
   color: black;
   font-family: verdana;
-  font-size: 500%;
+  font-size: 150%;
 }
 
 h3 {
   color: black;
   font-family: verdana;
-  font-size: 500%;
+  font-size: 150%;
 }
 
 h4 {
   color: black;
   font-family: verdana;
-  font-size: 500%;
+  font-size: 100%;
 }
 
 p {
   font-family: verdana;
-  
-  font-size: 500%;
+  font-size: 135%;
   color:black;
   background-color: steelblue;
+  padding: 2%;
+  border-radius: 20px;
 }
 
 footer {
@@ -48,9 +49,17 @@ footer {
   text-align: center;
   color: white;
   font-size: 100%;
+  border-radius: 10px;
 }
 
 img {
 text-align: center;
+border-radius: 10px;
 }
 
+td{
+border-radius: 10px;
+padding: 4px;
+background-color: steelblue;
+font-size: 100%;
+}
