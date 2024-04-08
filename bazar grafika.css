@@ -23,7 +23,7 @@ h1 {
 
 h2 {
 	color: orange;
-
+font-size: 8px;
  }
 p {
   font-family: verdana;
@@ -31,7 +31,7 @@ p {
 }
 
 a{
-  font-size: 40px;
+  font-size: 30px;
   color:  red ;
   padding: 40%;
 }
@@ -99,7 +99,7 @@ footer {
 }
 
 /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
