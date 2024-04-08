@@ -63,3 +63,26 @@ padding: 4px;
 background-color: steelblue;
 font-size: 100%;
 }
+
+.galerie {
+  width: 97%;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 600px) {
+  .galerie {
+   width: 48%;
+  }
+}  
+
+@media screen and (min-width: 900px) {
+  .galerie {
+   width: 32%;
+  }
+}  
+
+@media screen and (min-width: 1200px) {
+  .galerie {
+   width: 24%;
+  }
+}  
