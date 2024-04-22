@@ -28,12 +28,14 @@ font-size: 8px;
 p {
   font-family: verdana;
   font-size: 20px;
+  text-align: center;
 }
 
 a{
   font-size: 30px;
   color:  red ;
-  padding: 40%;
+  padding: %;
+  text-align: left;
 }
 label {
   font-size: 30px;
