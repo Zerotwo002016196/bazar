@@ -2,10 +2,20 @@ body {
   background-color:lightblue;
 }
 
+header {
+  background-color:steelblue;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 100%;
+  border-radius: 10px;
+  font: monospace;
+  }
+
 h1 {
   color: orange;
   text-align: center;
-  font-family: verdana;
+  font: serif;
   font-size: 300%;
 }
 a {
@@ -38,6 +48,7 @@ p {
   font-family: verdana;
   font-size: 135%;
   color:black;
+
   background-color: steelblue;
   padding: 2%;
   border-radius: 20px;
@@ -60,8 +71,10 @@ border-radius: 10px;
 td{
 border-radius: 10px;
 padding: 4px;
-background-color: steelblue;
+background-color: #556f49;
 font-size: 100%;
+background-color: steelblue;
+
 }
 
 .galerie {
