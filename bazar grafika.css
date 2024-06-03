@@ -12,30 +12,31 @@ h1 {
   color: ;
   text-align: left;
   font-size: 20px; 
-    background-size: 
 }
 
 #komf {
-
   }
-}
-}
 
 h2 {
-	color: orange;
-font-size: 8px;
- }
+  color: orange;
+  text-align: center;
+  font: serif;
+}
+
 p {
   font-family: verdana;
   font-size: 20px;
   text-align: center;
+  
 }
 
 a{
   font-size: 30px;
-  color:  red ;
+  color:  orange ;
   padding: %;
   text-align: left;
+  background-color: steelblue;
+  border-radius: 10px;
 }
 label {
   font-size: 30px;
@@ -53,22 +54,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
 header {
-  background-color: lightblue;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 300%;
   color: orange;
+  font: serif;
+
 }
 
-/* Container for flexboxes */
 section {
   display: -webkit-flex;
   display: flex;
 }
 
-/* Style the navigation menu */
 nav {
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -77,22 +76,23 @@ nav {
   padding: 20px;
 }
 
-/* Style the list inside the menu */
 nav ul {
   list-style-type: none;
   padding: 0;
 }
 
-/* Style the content */
 article {
   -webkit-flex: 3;
   -ms-flex: 3;
   flex: 3;
-  background-color: slategrey;
-  padding: 10px;
+  background-color:steelblue;
+  padding: 30px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
 }
 
-/* Style the footer */
 footer {
   background-color: #777;
   padding: 10px;
@@ -100,7 +100,7 @@ footer {
   color: white;
 }
 
-/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+
 @media (max-width: 1000px) {
   section {
     -webkit-flex-direction: column;
